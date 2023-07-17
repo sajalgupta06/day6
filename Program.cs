@@ -36,7 +36,7 @@ namespace ConsoleAppExercise2
                 }
                 else if (password.Length < 6)
                 {
-                    throw new OurExc("Name nust be 6 characters long");
+                    throw new OurExc("Password nust be 6 characters long");
 
                 }
 
